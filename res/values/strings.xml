@@ -892,6 +892,9 @@
     <string name="pref_title_mms_use_sent_timestamp">Original timestamps</string>
     <string name="pref_summary_mms_use_sent_timestamp">Display sent date instead of received date in timestamps</string>
 
+    <string name="storage_warning_title">"Your phone's storage is full"</string>
+    <string name="storage_warning_content">"You won't receive new SMS/MMS messages"</string>
+
     <!-- Add menu for 'Add SMS to calendar remind' -->
     <string name="menu_add_to_calendar">Add to calendar</string>
 
