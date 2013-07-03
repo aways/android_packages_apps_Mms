@@ -1522,9 +1522,10 @@ public class WorkingMessage {
         ContentResolver cr = context.getContentResolver();
 
         final String selection = Mms.THREAD_ID + " = " + conv.getThreadId();
-        cursor = SqliteWrapper.query(context, cr,
-                Mms.Draft.CONTENT_URI, MMS_DRAFT_PROJECTION,
-                selection, null, null);
+            cursor = SqliteWrapper.query(context, cr,
+            Mms.Draft.CONTENT_URI, MMS_DRAFT_PROJECTION,
+            selection, null, null);
+
         if (cursor == null) {
             return null;
         }
